@@ -1,0 +1,25 @@
+{
+  "name": "BackgroundTask",
+  "version": "0.1.0",
+  "summary": "A short description of BackgroundTask.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/BackgroundTask",
+  "license": "MIT",
+  "authors": {
+    "Jason Ardell": "ardell@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/BackgroundTask.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "BackgroundTask": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

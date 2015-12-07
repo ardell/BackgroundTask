@@ -1,0 +1,14 @@
+PODS:
+  - BackgroundTask (0.1.0)
+
+DEPENDENCIES:
+  - BackgroundTask (from `../`)
+
+EXTERNAL SOURCES:
+  BackgroundTask:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BackgroundTask: cc207c24a1f3580ad87d15f9c8e136e8d26881c6
+
+COCOAPODS: 0.39.0

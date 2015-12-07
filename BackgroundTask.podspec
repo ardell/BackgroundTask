@@ -38,6 +38,6 @@ DESC
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'AVFoundation'
   # s.dependency 'PromiseKit/Promise', '~> 1.6'
 end

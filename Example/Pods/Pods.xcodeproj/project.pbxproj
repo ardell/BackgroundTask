@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		291720FB3734E9C98D2500F8282A9D79 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 556F7A7C9D7A9921AE21D1B9579FB5CC /* ReplaceMe.m */; };
 		3141AD48EB13910335AEACA9E1778CEB /* BackgroundTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11997C4F8A2E43A23F045DC6C958CEAC /* BackgroundTask-dummy.m */; };
 		79B9C714B28396A5697ACAA4A8AF7251 /* Pods-BackgroundTask_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF164E9C9EFE642C7A7711BCF8B51CC /* Pods-BackgroundTask_Tests-dummy.m */; };
+		8ADE75F21C15E23A00163968 /* BGTBackgroundTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ADE75F01C15E23A00163968 /* BGTBackgroundTask.h */; };
+		8ADE75F31C15E23A00163968 /* BGTBackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ADE75F11C15E23A00163968 /* BGTBackgroundTask.m */; };
 		8D3025167CFB51CF5FB32BE14EEE0962 /* Pods-BackgroundTask_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E1D91359FEA77ED707085960ACB607 /* Pods-BackgroundTask_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		991515448EC77E38831A7A81130319F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		C3F3E03A7A364B32FEB91396624EEFF5 /* BackgroundTask.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39AF47DB962BFF85BE2FBA401D763757 /* BackgroundTask.bundle */; };
@@ -42,7 +43,6 @@
 		25E1D91359FEA77ED707085960ACB607 /* Pods-BackgroundTask_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BackgroundTask_Tests-umbrella.h"; sourceTree = "<group>"; };
 		39AF47DB962BFF85BE2FBA401D763757 /* BackgroundTask.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundTask.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		556F7A7C9D7A9921AE21D1B9579FB5CC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		61D935D315659F8D19B7ED92EF510C1D /* Pods-BackgroundTask_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BackgroundTask_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A1D42C1ECC4C1CFEB2E8DE5DA636160 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E321A5E6D6812B25FD9189F6FD03033 /* Pods-BackgroundTask_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BackgroundTask_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -50,6 +50,8 @@
 		71430AEDBCDECA0460D58BF124F68127 /* Pods_BackgroundTask_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackgroundTask_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D8390BE281C1B6527B9D951DC40E58 /* Pods-BackgroundTask_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BackgroundTask_Tests-resources.sh"; sourceTree = "<group>"; };
 		8618FC75F7B8D55CE6564A17917F1B94 /* Pods-BackgroundTask_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BackgroundTask_Tests.modulemap"; sourceTree = "<group>"; };
+		8ADE75F01C15E23A00163968 /* BGTBackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGTBackgroundTask.h; sourceTree = "<group>"; };
+		8ADE75F11C15E23A00163968 /* BGTBackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGTBackgroundTask.m; sourceTree = "<group>"; };
 		93A4A3581CAE9D4996C9C4B695693E61 /* BackgroundTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BackgroundTask-umbrella.h"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C3C25B2963BA641A099E663E5EC54958 /* BackgroundTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = BackgroundTask.modulemap; sourceTree = "<group>"; };
@@ -192,7 +194,8 @@
 		DF91E82602A504CE4C962D034D735315 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				556F7A7C9D7A9921AE21D1B9579FB5CC /* ReplaceMe.m */,
+				8ADE75F01C15E23A00163968 /* BGTBackgroundTask.h */,
+				8ADE75F11C15E23A00163968 /* BGTBackgroundTask.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0E307EAD6B3F39126519A878E4EE3DB /* BackgroundTask-umbrella.h in Headers */,
+				8ADE75F21C15E23A00163968 /* BGTBackgroundTask.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +335,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ADE75F31C15E23A00163968 /* BGTBackgroundTask.m in Sources */,
 				3141AD48EB13910335AEACA9E1778CEB /* BackgroundTask-dummy.m in Sources */,
-				291720FB3734E9C98D2500F8282A9D79 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

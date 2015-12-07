@@ -12,7 +12,9 @@ Based on this post: http://hayageek.com/ios-long-running-background-task/
 To periodically run a task in the background:
 
 ```objective-c
-BackgroundTask *bgTask = [[BackgroundTask alloc] init];
+#import <BackgroundTask/BGTBackgroundTask.h>
+
+BGTBackgroundTask *bgTask = [[BGTBackgroundTask alloc] init];
 [bgTask startBackgroundTasks:600    // every 600 seconds
                       target:self   // run [self doWork]
                     selector:@selector(doWork)];
